@@ -33,3 +33,64 @@ Accurate solar forecasting helps grid operators balance renewable energy supply 
 ---
 
 ## 📂 Project Structure
+
+Solar-Power-Prediction-AI-Model/
+
+├── data/               # Raw and processed datasets
+
+├── notebooks/          # EDA and model training notebooks
+
+├── models/             # Saved model files
+
+├── src/                # Source scripts
+
+│   ├── preprocess.py
+
+│   ├── train.py
+
+│   └── evaluate.py
+
+├── results/            # Plots and evaluation outputs
+
+├── requirements.txt
+
+└── README.md
+
+
+---
+
+## 📊 Results
+
+| Model           | RMSE  | MAE   | R²    |
+|-----------------|-------|-------|-------|
+| Linear Regression | X.XX | X.XX | X.XX |
+| Random Forest   | X.XX  | X.XX  | X.XX  |
+| XGBoost         | X.XX  | X.XX  | X.XX  |
+
+*(Fill in your actual numbers — this is what makes the README compelling)*
+
+---
+
+## ⚙️ How to Run
+
+```bash
+git clone https://github.com/Prat-1234/Solar-Power-Prediction-AI-Model.git
+cd Solar-Power-Prediction-AI-Model
+pip install -r requirements.txt
+jupyter notebook notebooks/solar_prediction.ipynb
+```
+
+---
+
+## 🔮 Future Improvements
+
+- Integrate with AWS SageMaker for scalable model training
+- Add real-time weather API input for live predictions
+- Deploy as a REST API using AWS Lambda + API Gateway
+
+---
+
+## 👤 Author
+
+**Prateek Kumar Singh**
+[LinkedIn](https://linkedin.com/in/prateeksingh6394/) • [GitHub](https://github.com/Prat-1234) • [Portfolio](https://prat-1234.github.io)
